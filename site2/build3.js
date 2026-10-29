@@ -747,6 +747,7 @@ const ASSETS = {
   'apple-touch-icon.png': path.join(KIT, 'Web/apple-touch-icon.png'),
   'david-square.jpg': path.join(SCR, 'site-src/assets/david-square.jpg'),
   'david-hodgson.jpg': path.join(SCR, 'site-src/assets/david-hodgson.jpg'),
+  'email-logo.png': path.join(KIT, 'Email/email-logo.png'),
 };
 for (const out of [OUT_SITE, OUT_PREVIEW]) {
   fs.rmSync(out, { recursive: true, force: true }); fs.mkdirSync(path.join(out, 'assets'), { recursive: true });
