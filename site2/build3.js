@@ -56,7 +56,7 @@ const header = (current) => `
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" id="menu-btn">Menu</button>
     <nav class="nav" id="nav" aria-label="Main">
       ${drop('about-menu', 'About us', current === 'about' || current === 'insights', [['about.html', 'Our story', ''], ['about.html#values', 'Values', ''], ['about.html#mission', 'Vision &amp; Mission', ''], ...(showInsights() ? [['insights.html', 'Insights', '']] : [])])}
-      ${drop('services-menu', 'Services', current === 'services', [...SERVICES.map(sv => [`${sv.id}.html`, sv.short, ''])])}
+      ${drop('services-menu', 'Services', current === 'services', [['investors.html', 'For PE &amp; VC investors', ''], ['founders.html', 'For founders &amp; CEOs', ''], ...SERVICES.map(sv => [`${sv.id}.html`, sv.short, ''])])}
       <div class="nav-tools" role="group" aria-label="Tools to use now">
         <span class="nav-tools-label">Tools to use now</span>
         ${NAV.filter(n => ['leak', 'roi'].includes(n[2])).map(([href, label, key]) => `<a class="nav-tool" href="${href}"${key === current ? ' aria-current="page"' : ''}>${label}</a>`).join('\n        ')}
@@ -682,6 +682,9 @@ pages.push({
 ${cta('Let&rsquo;s talk. Max 20 to 30 minutes!', 'Tell us where you are and where you want to get to.', 'Book a slot in our diary now!')}`,
 });
 
+// AUDIENCE PAGES
+pages.push(...require('./audience_pages.js')({ CALENDLY, TALK20, cta }));
+
 // LEAK FINDER
 pages.push({
   file: 'leak.html', nav: 'leak', title: 'The Leak Finder | Amana Growth Partners', desc: 'Every sales engine leaks. Find out how much yours is losing in 30 seconds, with research you can check.',
@@ -748,6 +751,7 @@ const ASSETS = {
   'david-square.jpg': path.join(SCR, 'site-src/assets/david-square.jpg'),
   'david-hodgson.jpg': path.join(SCR, 'site-src/assets/david-hodgson.jpg'),
   'email-logo.png': path.join(KIT, 'Email/email-logo.png'),
+  'amana-pre-deal-sales-red-flags.pdf': path.join(ROOT, 'files/Amana_Pre-deal_Sales_Red_Flags.pdf'),
 };
 for (const out of [OUT_SITE, OUT_PREVIEW]) {
   fs.rmSync(out, { recursive: true, force: true }); fs.mkdirSync(path.join(out, 'assets'), { recursive: true });
