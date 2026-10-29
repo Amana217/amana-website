@@ -396,6 +396,7 @@ pages.push({
       <div><span class="label">Based in</span><span>Dubai &amp; London. Working across the UK, Europe and the Middle East.</span></div>
     </div>
   </div>
+${require('./lead_form.js')({ EMAIL, CALENDLY })}
 </section>
 <script>
 (function () {
@@ -715,9 +716,9 @@ pages.push({
   <div class="wrap prose">
     <p>Amana Growth Partners respects your privacy. This notice explains what personal information we collect through this website, why, and what rights you have.</p>
     <h2>What we collect</h2>
-    <ul><li>Details you send by email, such as your name, company, email address and message.</li><li>Details you give when booking a conversation through the booking service.</li><li>Basic, anonymous information about how the website is used, such as pages visited.</li></ul>
+    <ul><li>Details you send by email or through the enquiry form on this website, such as your name, company, role, email address, what you need help with and your message.</li><li>Details you give when booking a conversation through the booking service.</li><li>Basic, anonymous information about how the website is used, such as pages visited.</li></ul>
     <h2>How we use it</h2><p>Only to reply to you, arrange and hold conversations you ask for, and improve the website. We do not sell your information or use it for unrelated marketing.</p>
-    <h2>Who we share it with</h2><p>Only the services needed to run this website, email and booking, and only for those purposes. Some of these providers may store data outside your country, under appropriate safeguards.</p>
+    <h2>Who we share it with</h2><p>Only the services needed to run this website, email, booking and our customer records, and only for those purposes. Enquiry form details are stored in HubSpot, our customer relationship system, in its European data centre. Some of these providers may store data outside your country, under appropriate safeguards.</p>
     <h2>How long we keep it</h2><p>For as long as needed to deal with your enquiry and any work that follows, then it is deleted.</p>
     <h2>Your rights</h2><p>You can ask to see, correct or delete the information we hold about you, or object to how it is used, by emailing ${EMAIL}.</p>
     <h2>Contact</h2><p>Amana Growth Partners, Dubai, United Arab Emirates. ${EMAIL}</p>
