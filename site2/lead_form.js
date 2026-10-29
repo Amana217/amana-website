@@ -1,7 +1,9 @@
 // Lead form in the Contact section. Submissions go straight into HubSpot (EU data centre) as contacts.
 const HS = { portal: '149649295', form: '5b50512e-ea54-4fe2-90ac-ebe4a61fd949', endpoint: 'https://api-eu1.hsforms.com/submissions/v3/integration/submit' };
 
-const opt = (list) => ['<option value="" selected disabled>Choose one</option>', ...list.map(v => `<option>${v}</option>`)].join('');
+// Shown wording differs from the stored HubSpot value where the copy has moved on
+const LABEL = { 'Senior commercial leadership (fractional CRO)': 'Senior sales leadership, retained' };
+const opt = (list) => ['<option value="" selected disabled>Choose one</option>', ...list.map(v => LABEL[v] ? `<option value="${v}">${LABEL[v]}</option>` : `<option>${v}</option>`)].join('');
 const ROLES = ['Founder or CEO', 'Investor (PE or VC)', 'Sales leader', 'Other'];
 const REVENUE = ['Under £2m', '£2m to £10m', '£10m to £50m', '£50m+', 'Investor, across a portfolio'];
 const NEEDS = ['Revenue has stalled', 'Go to market strategy', 'Entering a new market', 'Expanding into the Middle East', 'Pipeline and forecasting', 'Sales process and CRM', 'Pricing and packaging', 'Hiring or building the sales team', 'Assessing or hiring a sales leader', 'Developing the sales team', 'Coaching for me or my sales leaders', 'Senior commercial leadership (fractional CRO)', 'Sales due diligence before an investment', 'Portfolio support', 'Not sure yet'];

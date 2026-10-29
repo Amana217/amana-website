@@ -12,15 +12,15 @@ const attr = (s) => plain(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 // Titles and descriptions, written around what buyers search for in the UK and the Middle East
 const META = {
   'index.html': ['Amana Growth Partners | Revenue Growth Partner, UK & Middle East',
-    'Operator led revenue growth for founders, CEOs, PE and VC firms and their portfolio companies in the UK and the Middle East. Diagnostics, fractional CRO support, sales hiring and market entry.'],
+    'Operator led revenue growth for founders, CEOs, PE and VC firms and their portfolio companies in the UK and the Middle East. Diagnostics, retained sales leadership, sales hiring and market entry.'],
   'about.html': ['About David Hodgson, Managing Partner | Amana Growth Partners',
     'David Hodgson has spent twenty years building revenue engines from zero across the UK, Europe and the Middle East. Why he started Amana Growth Partners and how he works.'],
   'diagnostic.html': ['Sales & Revenue Diagnostic, UK & Middle East | Amana',
     'An objective sales and revenue diagnostic in 2 to 4 weeks, for a fixed fee. Find why growth has stalled, the fixes in priority order and the cost of doing nothing. UK and Middle East.'],
   'embedded.html': ['30 to 90 Day Revenue Turnaround, with Warranty | Amana',
     'Hands on revenue turnaround for founders, CEOs, PE and VC. We find what is holding growth back, then build and run the fixes with your team within 90 days. UK and Middle East.'],
-  'retained.html': ['Fractional CRO & Retained Growth Partner | Amana',
-    'Senior commercial leadership every month without hiring a full time CRO or VP Sales. Board level judgement on forecast, hiring, pricing and new markets, in the UK and the Middle East.'],
+  'retained.html': ['Retained Growth Partner, Senior Sales Leadership | Amana',
+    'Senior commercial leadership every month without a full time senior sales hire. Board level judgement on forecast, hiring, pricing and new markets, in the UK and the Middle East.'],
   'middle-east-market-entry.html': ['Middle East Market Entry, UAE & Saudi Arabia | Amana',
     'Win your first customers in the UAE, Saudi Arabia and the wider Gulf before you open an office or hire locally. Market testing, introductions, pipeline and local set up support.'],
   'mentoring.html': ['Sales Leadership Coaching & Mentoring, UK & Middle East | Amana',
@@ -56,7 +56,7 @@ const FAQ = {
     ['Where do you deliver it?', WHERE],
   ],
   retained: [
-    ['What is a retained growth partner?', 'Senior commercial judgement every month without hiring a full time CRO or VP Sales, similar to a fractional CRO. We spend set days each month with the CEO and sales leader and help with the big calls on hiring, pipeline coverage, pricing, packaging and new markets.'],
+    ['What is a retained growth partner?', 'Senior commercial judgement every month without a full time senior sales hire, similar to fractional sales leadership. We spend set days each month with the CEO and sales leader and help with the big calls on hiring, pipeline coverage, pricing, packaging and new markets.'],
     ['How is it priced?', 'A monthly fee based on the hours retained, reviewed quarterly.'],
     ['Do you attend leadership and board meetings?', 'Yes, as an observer, to give an objective view of revenue and keep the forecast honest. ' + WHERE],
   ],
@@ -101,7 +101,7 @@ const AREAS = [
   { '@type': 'Country', name: 'Saudi Arabia' },
   { '@type': 'Place', name: 'Middle East' },
 ];
-const TOPICS = ['Revenue growth', 'Go to market strategy', 'Sales leadership', 'Fractional CRO', 'Sales pipeline and forecasting', 'Sales hiring and assessment', 'Sales team development', 'Commercial due diligence', 'Private equity value creation', 'Middle East market entry', 'SaaS', 'Data and insights', 'Market intelligence'];
+const TOPICS = ['Revenue growth', 'Go to market strategy', 'Sales leadership', 'Fractional sales leadership', 'Sales pipeline and forecasting', 'Sales hiring and assessment', 'Sales team development', 'Commercial due diligence', 'Private equity value creation', 'Middle East market entry', 'SaaS', 'Data and insights', 'Market intelligence'];
 
 const core = () => [
   {
@@ -191,7 +191,7 @@ function crawlFiles(pages, services) {
 
 > Operator led revenue growth partner for founders, CEOs, PE and VC firms and their portfolio companies in the UK and the Middle East. Founded by David Hodgson, Managing Partner, who has spent twenty years building revenue engines from zero across the UK, Europe and the Middle East in SaaS, data and insights, and intelligence businesses. Based in London and Dubai.
 
-Amana works with private equity and venture capital firms across their portfolio, and directly with founder led and established B2B companies. Engagements include sales and revenue diagnostics, hands on 30 to 90 day turnarounds, retained fractional CRO support, sales hiring and assessment, sales team development, sales leadership coaching, and market entry into the UAE, Saudi Arabia and the wider Gulf. Contact: ${EMAIL}
+Amana works with private equity and venture capital firms across their portfolio, and directly with founder led and established B2B companies. Engagements include sales and revenue diagnostics, hands on 30 to 90 day turnarounds, retained sales leadership, sales hiring and assessment, sales team development, sales leadership coaching, and market entry into the UAE, Saudi Arabia and the wider Gulf. Contact: ${EMAIL}
 
 ## Services
 

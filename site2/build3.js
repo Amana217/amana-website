@@ -173,8 +173,8 @@ const SERVICES = [
     doList: ['Find what is really holding growth back, in the first two weeks', 'Agree the priorities with you', 'Lead the discovery and planning inside your business, with your team', 'Typically ICP, customer focus, pipeline, sales process, forecasting, hiring and weekly rhythm'],
     getList: ['The real problems found, not guessed', 'Fixes built and running within 90 days', 'Repeatable systems and processes that scale'] },
   { id: 'retained', name: 'Retained Growth Partner', short: 'Retained Growth Partner', rhythm: 'Monthly, reviewed quarterly', fee: 'Monthly fee based on hours retained',
-    intro: ['For founders, CEOs, PE, VC and boards. Senior commercial judgement every month, without hiring a full time CRO or VP Sales.'],
-    problems: ['I need a CRO&rsquo;s judgement, not a CRO&rsquo;s salary.', 'I can&rsquo;t afford a VP Sales or CRO right now.'],
+    intro: ['For founders, CEOs, PE, VC and boards. Senior commercial judgement every month, without a full time senior sales hire.'],
+    problems: ['I need a senior sales leader&rsquo;s judgement, not another full time salary.', 'We are not ready for a full time sales leader yet.'],
     doList: ['Set days each month with the CEO and sales leader', 'Join leadership and board meetings as an observer', 'Keep the forecast honest', 'Help with the big calls on hiring, pipeline coverage, pricing, packaging and entering new markets'],
     getList: ['Senior commercial leadership on hand', 'For a fraction of the cost of a full-time hire'] },
   { id: 'middle-east-market-entry', name: 'Local Market Entry, Middle East', short: 'Local Market Entry, Middle East', rhythm: 'From 3 to 6 months', fee: 'Flexible to requirements',
@@ -260,7 +260,7 @@ const panelFor = (w) => {
       <p class="for">Not sure which? Start with the Diagnostic. Everything it finds carries straight into the 30 to 90 day full service.</p>
       ${btns('', TALK2030)}`;
   if (w.id === 'retained') return panel({ eyebrow: 'Monthly, quarterly, annually', h: 'Retained Growth Partner',
-    forText: ['For founders, CEOs, PE and VC. Senior commercial judgement, without hiring a full-time CRO or VP Sales. It could be as little as 5 hours a month.'],
+    forText: ['For founders, CEOs, PE and VC. Senior commercial judgement, without a full time senior sales hire. It could be as little as 5 hours a month.'],
     doList: ['Set days each month with the CEO, sales leader and wider team', 'Join leadership and board meetings as an observer, for objective revenue reviews', 'Keep the forecast honest', 'Help with the big calls on hiring, pricing, packaging and entering new markets'],
     getList: ['Senior commercial leadership on hand', 'For a fraction of the cost of a full-time hire'], detail: 'retained.html' });
   if (w.id === 'middle-east-market-entry') return panel({ eyebrow: 'From 3 months &middot; Monthly retainer &middot; Commission &middot; Equity (LTIP)', h: 'Local Market Entry, Middle East',
@@ -654,7 +654,7 @@ pages.push({
 </section>
 <section class="band mist" id="mission" style="scroll-margin-top:80px">
   <div class="wrap cols-2">
-    <div class="stack"><p class="eyebrow">Vision</p><p class="lead">A world that understands what it asks of its commercial leaders. The VP Sales or CRO in a small or mid-sized business is expected to deliver investor returns on a clock, with models built for a different era and a board that rarely sees the load. We want founders, CEOs, boards and investors to recognise that pressure for what it is, and to stop treating it as a problem of the person rather than the system.</p></div>
+    <div class="stack"><p class="eyebrow">Vision</p><p class="lead">A world that understands what it asks of its commercial leaders. The sales leader in a small or mid-sized business is expected to deliver investor returns on a clock, with models built for a different era and a board that rarely sees the load. We want founders, CEOs, boards and investors to recognise that pressure for what it is, and to stop treating it as a problem of the person rather than the system.</p></div>
     <div class="stack"><p class="eyebrow">Mission</p><p class="lead">To stand beside the commercial leader, share the load with your sales leader and balance it with the CEO and board. We bring an impartial view, rebuild what is broken in the model with everyone as a unit, get execution moving with urgency, and hand the business back stronger, with the work already underway.</p></div>
   </div>
 </section>
