@@ -306,7 +306,7 @@ pages.push({
         <p>When you work with me you get the truth early, from someone who has done the job.</p>
         <p>Mistakes are costing founders, investors and shareholders huge sums of money, and costing the company&rsquo;s employees their livelihoods. It becomes &lsquo;the blame game&rsquo;.</p>
         <p>We exist to fix this serial problem.</p>
-        <div class="note-tools"><a class="btn" href="leak.html">Find your leak</a><a class="btn ghost" href="roi.html">Work out your ROI</a></div>
+        <div class="note-tools"><a class="btn" href="leak.html">Find your leak</a><a class="btn ghost" href="roi.html">Work out your ROI</a><a class="btn ghost" href="investors.html">For PE &amp; VC investors</a></div>
       </div>
     </div>
     <p class="stats-label">Built from zero, more than once. UK, Europe &amp; Middle East.</p>
