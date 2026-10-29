@@ -60,7 +60,7 @@ module.exports = ({ CALENDLY, TALK20, cta }) => {
   </div>
 </section>
 
-<section class="band mist">
+<section class="band">
   <div class="wrap">
     <div class="section-head">
       <div class="stack"><p class="eyebrow">&ldquo;That&rsquo;s why we hire a CRO&rdquo;</p><h2>We back your sales leader. We don&rsquo;t replace them.</h2></div>
@@ -75,7 +75,7 @@ module.exports = ({ CALENDLY, TALK20, cta }) => {
   </div>
 </section>
 
-<section class="band">
+<section class="band mist">
   <div class="wrap cols-2">
     <div class="stack"><p class="eyebrow">Why an operator</p><h2>We are operators, not consultants.</h2></div>
     <div class="stack">
