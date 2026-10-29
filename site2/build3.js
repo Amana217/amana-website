@@ -302,7 +302,7 @@ pages.push({
       <div class="panel-note">
         <p class="eyebrow">A note from me</p>
         <p>If you are reading this, growth probably matters a great deal to you right now. Maybe it has stalled. Maybe you are about to back a business, enter a new market, or even let your sales leader go. Perhaps you are the sales leader carrying a number with nobody to think it through with.</p>
-        <p>I have sat on every side of that table. I started Amana because I have seen how much time and money is wasted building revenue engines, in founder led businesses and in large corporates alike.</p>
+        <p>I have sat on every side of that table. I&rsquo;ve spent 20 years building revenue engines as an operator inside B2B SaaS and data businesses, and there&rsquo;s a lot of value I can add pre and post deal. Pre deal on due diligence, and post deal to accelerate value creation. I started Amana because I have seen how much time and money is wasted building revenue engines, in founder led businesses and in large corporates alike.</p>
         <p>When you work with me you get the truth early, from someone who has done the job.</p>
         <p>Mistakes are costing founders, investors and shareholders huge sums of money, and costing the company&rsquo;s employees their livelihoods. It becomes &lsquo;the blame game&rsquo;.</p>
         <p>We exist to fix this serial problem.</p>
