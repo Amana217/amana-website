@@ -60,7 +60,7 @@ module.exports = ({ EMAIL, CALENDLY }) => `
     var fields = names.map(function (n) { return { objectTypeId: '0-1', name: n, value: (f[n].value || '').trim() }; }).filter(function (x) { return x.value; });
     var ctx = { pageUri: location.href, pageName: document.title }; var h = cookie('hubspotutk'); if (h) ctx.hutk = h;
     var btn = f.querySelector('button[type=submit]'); btn.disabled = true; st.textContent = 'Sending…';
-    fetch('${HS.endpoint}/${HS.portal}/${HS.form}', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ fields: fields, context: ctx, legalConsentOptions: { legitimateInterest: { value: true, subscriptionTypeId: 4012354045, legalBasis: 'LEGITIMATE_INTEREST_CLIENT', text: 'We use these details only to reply to your enquiry.' } } }) })
+    fetch('${HS.endpoint}/${HS.portal}/${HS.form}', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ fields: fields, context: ctx, legalConsentOptions: { legitimateInterest: { value: true, subscriptionTypeId: 4012354045, legalBasis: 'LEAD', text: 'We use these details only to reply to your enquiry.' } } }) })
       .then(function (r) { if (!r.ok) throw new Error(r.status); f.hidden = true; done.hidden = false; done.scrollIntoView({ behavior: 'smooth', block: 'center' }); })
       .catch(function () { btn.disabled = false; st.innerHTML = 'Sorry, that did not send. Please email <a href="mailto:${EMAIL}">${EMAIL}</a>.'; });
   });
