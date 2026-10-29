@@ -60,6 +60,21 @@ module.exports = ({ CALENDLY, TALK20, cta }) => {
   </div>
 </section>
 
+<section class="band mist">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="stack"><p class="eyebrow">&ldquo;That&rsquo;s why we hire a CRO&rdquo;</p><h2>We back your sales leader. We don&rsquo;t replace them.</h2></div>
+      <p class="muted lead">A great CRO is the goal. These are the moments a fund needs more than one person can give.</p>
+    </div>
+    <div class="cols-4">
+      <div class="card"><h3>Before you own it</h3><p>Pre deal, the sales leader works for the seller. Their view of the engine is not independent, and your CRO is not in the room yet.</p></div>
+      <div class="card"><h3>While you hire</h3><p>Finding and landing a strong CRO takes months. The value creation plan starts on day one.</p></div>
+      <div class="card"><h3>An honest second view</h3><p>No leader can mark their own homework. The board gets an objective read on the forecast, and the CRO gets someone who has done the job to think it through with.</p></div>
+      <div class="card"><h3>Hiring the right one</h3><p>If the business needs a new sales leader, we define what good looks like for the stage and help you hire on evidence, not interviews.</p></div>
+    </div>
+  </div>
+</section>
+
 <section class="band">
   <div class="wrap cols-2">
     <div class="stack"><p class="eyebrow">Why an operator</p><h2>We are operators, not consultants.</h2></div>
@@ -121,6 +136,16 @@ ${cta('Let&rsquo;s talk about your portfolio.', 'Tell us about a deal you are lo
       <div class="card"><span class="label">2 to 4 weeks &middot; fixed fee</span><h3>Diagnostic</h3><p>An honest outside view of what is holding revenue back, before you spend more or make any big decisions.</p><a class="textlink" href="diagnostic.html">Full details &rarr;</a></div>
       <div class="card"><span class="label">Up to 90 days</span><h3>30 to 90 Day Full Service</h3><p>We work hands on with you and your team to agree the plan and build the fixes, with a warranty.</p><a class="textlink" href="embedded.html">Full details &rarr;</a></div>
       <div class="card"><span class="label">Monthly</span><h3>Retained Growth Partner</h3><p>A CRO&rsquo;s judgement every month, without a full time CRO&rsquo;s salary. On hand for the forecast, the board and the big calls.</p><a class="textlink" href="retained.html">Full details &rarr;</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap cols-2">
+    <div class="stack"><p class="eyebrow">&ldquo;Shouldn&rsquo;t I just hire a VP Sales?&rdquo;</p><h2>Maybe. Make sure it&rsquo;s the right one, at the right time.</h2></div>
+    <div class="stack">
+      <p class="lead-p">A senior sales hire is one of the biggest bets you will make. Get it wrong and it costs a year, not just a salary. We help you decide whether you need that hire yet, what good looks like for your stage, and how to hire on evidence.</p>
+      <p class="lead-p">Already have a sales leader? Good. We work beside them, share the load and make them better. We don&rsquo;t replace them.</p>
     </div>
   </div>
 </section>
