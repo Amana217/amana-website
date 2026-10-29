@@ -888,3 +888,17 @@ section[aria-label="Film"] { padding-top: clamp(20px, 2.5vw, 32px); }
 .lf-status { margin: 0; font-size: 0.9rem; color: var(--grey); }
 .lead-done { display: flex; flex-direction: column; gap: 12px; background: var(--white); border: 1px solid var(--palm); border-radius: 22px; padding: clamp(20px, 3vw, 32px); }
 .leadf { scroll-margin-top: 96px; }
+
+/* Audience entry points on the home page */
+.hero .intro p.hero-who { margin-top: 0; font-size: 1rem; line-height: 1.4; color: var(--grey); display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; }
+.who-band { border-top: 1px solid var(--line); }
+.who { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.who-card { display: flex; flex-direction: column; gap: 10px; padding: 28px; border-radius: var(--r); background: var(--sandt, #FBEBDD); color: var(--ink); text-decoration: none; transition: transform .2s ease; }
+.who-card + .who-card { background: var(--mist); }
+.who-card h2 { font-size: clamp(1.35rem, 2.4vw, 1.8rem); line-height: 1.15; margin: 0; max-width: 24ch; }
+.who-card .muted { margin: 0; }
+.who-card .textlink { margin-top: 4px; }
+.who-card:hover { transform: translateY(-2px); }
+.who-card:focus-visible { outline: 2px solid var(--palm); outline-offset: 3px; }
+@media (max-width: 760px) { .who { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .who-card { transition: none; } .who-card:hover { transform: none; } }

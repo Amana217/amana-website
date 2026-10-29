@@ -77,7 +77,7 @@ const footer = () => `
       <p class="foot-amana"><span class="ar" lang="ar">أمانة</span>Amana is the Arabic word for something held in trust. Placed in your care, protected on your honour, and returned to its owner intact. We go one step further and hand it back stronger.</p>
     </div>
     <nav class="foot-links" aria-label="Footer">
-      ${NAV.map(([href, label]) => `<a href="${href}">${label}</a>`).join('')}${showInsights() ? '<a href="insights.html">Insights</a>' : ''}<a href="partners.html">Partners</a>
+      <a href="investors.html">For investors</a><a href="founders.html">For founders &amp; CEOs</a>${NAV.map(([href, label]) => `<a href="${href}">${label}</a>`).join('')}${showInsights() ? '<a href="insights.html">Insights</a>' : ''}<a href="partners.html">Partners</a>
       <a href="${BOOK}">Contact</a>
     </nav>
     <div class="foot-meta">
@@ -328,7 +328,15 @@ pages.push({
       <p>We help founders, CEOs, investors and sales leaders build revenue engines that are repeatable and scalable.</p>
       <p><b>We are operators, not consultants.</b></p>
       <div class="btn-row hero-btns"><a class="btn" href="${CALENDLY}" target="_blank" rel="noopener">${TALK20}</a><a class="btn ghost" href="#services">Problem statements</a></div>
+      <p class="hero-who">I am&hellip; <a class="textlink" href="investors.html">a PE or VC investor &rarr;</a> <a class="textlink" href="founders.html">a founder or CEO &rarr;</a></p>
     </div>
+  </div>
+</section>
+
+<section class="band tight who-band" aria-label="Who we help">
+  <div class="wrap who">
+    <a class="who-card" href="investors.html"><p class="eyebrow">For PE and VC investors</p><h2>An operator on your side of the deal.</h2><p class="muted">Pre deal on due diligence. Post deal to accelerate value creation.</p><span class="textlink">See how we work with funds &rarr;</span></a>
+    <a class="who-card" href="founders.html"><p class="eyebrow">For founders and CEOs</p><h2>Growth that does not depend on you being in every deal.</h2><p class="muted">Find what is holding growth back, fix it with your team, and keep it running.</p><span class="textlink">See how we help founders &rarr;</span></a>
   </div>
 </section>
 
