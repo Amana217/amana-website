@@ -17,7 +17,7 @@ const OUT_PREVIEW = path.join(ROOT, 'out/preview');
 const EMAIL = 'info@amanagrowthpartners.com';
 const CALENDLY = 'https://calendly.com/david-amanagrowthpartners/30min';
 const LINKEDIN = 'https://www.linkedin.com/in/davidhodgsonuae/';
-const BOOK = './#book';
+const BOOK = './#enquire';
 const FONTS = 'https://fonts.googleapis.com/css2?family=Amiri&family=Mrs+Saint+Delafield&family=Space+Grotesk:wght@300;400;500&display=swap';
 const VERSION = Date.now().toString(36);
 const todo = (t) => `<span class="todo">${t}</span>`;
@@ -93,6 +93,10 @@ const footer = () => `
   var navType = ''; try { navType = (performance.getEntriesByType('navigation')[0] || {}).type || ''; } catch (e) {}
   var toTop = function () { if (!location.hash && navType !== 'back_forward') window.scrollTo(0, 0); };
   toTop(); window.addEventListener('load', toTop);
+  /* Links to a section (such as Contact) land on it even after images and fonts shift the layout */
+  var toHash = function () { if (!location.hash || location.hash.length < 2) return; var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); };
+  window.addEventListener('load', function () { setTimeout(toHash, 50); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { setTimeout(toHash, 50); });
   var mb = document.getElementById('menu-btn'), nav = document.getElementById('nav');
   var drops = Array.prototype.slice.call(document.querySelectorAll('.nav-drop'));
   var closeAll = function (except) { drops.forEach(function (x) { if (x !== except) { x.classList.remove('open'); x.querySelector('.nav-drop-btn').setAttribute('aria-expanded', 'false'); } }); };

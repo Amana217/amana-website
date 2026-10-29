@@ -4,11 +4,11 @@ const HS = { portal: '149649295', form: '5b50512e-ea54-4fe2-90ac-ebe4a61fd949', 
 const opt = (list) => ['<option value="" selected disabled>Choose one</option>', ...list.map(v => `<option>${v}</option>`)].join('');
 const ROLES = ['Founder or CEO', 'Investor (PE or VC)', 'Sales leader', 'Other'];
 const REVENUE = ['Under £2m', '£2m to £10m', '£10m to £50m', '£50m+', 'Investor, across a portfolio'];
-const NEEDS = ['Revenue has stalled', 'Entering a new market', 'Hiring or building the sales team', 'Pipeline and forecasting', 'Portfolio support', 'Not sure yet'];
+const NEEDS = ['Revenue has stalled', 'Go to market strategy', 'Entering a new market', 'Expanding into the Middle East', 'Pipeline and forecasting', 'Sales process and CRM', 'Pricing and packaging', 'Hiring or building the sales team', 'Assessing or hiring a sales leader', 'Developing the sales team', 'Coaching for me or my sales leaders', 'Senior commercial leadership (fractional CRO)', 'Sales due diligence before an investment', 'Portfolio support', 'Not sure yet'];
 const TIMING = ['Now', 'Within 3 months', 'Just exploring'];
 
 module.exports = ({ EMAIL, CALENDLY }) => `
-  <div class="wrap leadf">
+  <div class="wrap leadf" id="enquire">
     <div class="lead-head">
       <p class="eyebrow">Not ready to book yet?</p>
       <h3>Tell us where you are, and we will come back to you personally.</h3>

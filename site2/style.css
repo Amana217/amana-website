@@ -887,3 +887,4 @@ section[aria-label="Film"] { padding-top: clamp(20px, 2.5vw, 32px); }
 .lf-actions .btn[disabled] { opacity: .6; cursor: wait; }
 .lf-status { margin: 0; font-size: 0.9rem; color: var(--grey); }
 .lead-done { display: flex; flex-direction: column; gap: 12px; background: var(--white); border: 1px solid var(--palm); border-radius: 22px; padding: clamp(20px, 3vw, 32px); }
+.leadf { scroll-margin-top: 96px; }
