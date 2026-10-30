@@ -146,7 +146,7 @@ module.exports = ({ CALENDLY }) => `
   function summary() {
     var h = calc1(), p = calc2(), a = calc3();
     var items = [
-      { k: 'hire', t: 'The wrong hire', v: h, txt: money(h) + ' per wrong salesperson', svc: '<a href="talent.html">Talent Identification</a> helps you hire and promote the right sales people.' },
+      { k: 'hire', t: 'The wrong hire', v: h, txt: money(h) + ' per wrong salesperson', svc: '<a href="talent.html">Hire Right</a> helps you hire, promote and onboard the right salespeople.' },
       { k: 'pipe', t: 'Deals that stall and die', v: p.mid, txt: money(p.lo) + ' to ' + money(p.hi) + ' of your pipeline', svc: 'A <a href="diagnostic.html">Diagnostic</a> finds exactly where your deals stall, in 2 to 4 weeks.' },
       { k: 'admin', t: 'Sellers buried in admin', v: a, txt: money(a) + ' of sales pay spent not selling', svc: '<a href="team-development.html">Sales Team Development</a> builds the habits and rhythm that put time back into selling.' }
     ];

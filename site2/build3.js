@@ -187,11 +187,11 @@ const SERVICES = [
     problems: ['My sales leader is good but has no one to think out loud with.', 'Let&rsquo;s look at internal mentor programmes.'],
     doList: ['One to one sessions for first line managers through to VP', 'Pipeline reviews, deal strategy, hiring and tough conversations', 'Join a team meeting where it helps', 'Rhythm set after a short assessment'],
     getList: ['A more confident leader who makes better calls', 'A leader with less emotion, who feels protected'] },
-  { id: 'talent', name: 'Talent Identification', short: 'Talent Identification', rhythm: 'Per hire, or across a hiring plan', fee: 'Fixed fee per role, agreed up front',
-    intro: ['For founders, CEOs, PE, VC and sales leaders about to hire or promote into sales.', 'Find, assess and secure the sales people who will actually hit the number, before a wrong hire costs you a year.'],
-    problems: ['We hired a sales leader who interviewed brilliantly and delivered nothing.', 'I don&rsquo;t know what good looks like for this role.', 'Our best rep isn&rsquo;t ready to lead, but we promoted them anyway.'],
-    doList: ['Define what good looks like for the role, the market and the stage you are at', 'Build the scorecard, interview plan and practical assessment', 'Join interviews and run role plays with shortlisted candidates', 'Assess internal talent for promotion and readiness', 'Work alongside your recruiters, or our recruitment partners'],
-    getList: ['The right hire, made on evidence rather than instinct', 'A repeatable hiring process your team can run without us'] },
+  { id: 'talent', name: 'Hire Right', short: 'Hire Right', rhythm: 'Per hire, or across a hiring plan', fee: 'Fixed fee per role, agreed up front',
+    intro: ['For CEOs, founders, sales leaders, PE and VC, whenever you hire or promote into sales, from your first salesperson to your sales leader.', 'An operator beside you when you hire, and through onboarding, so the right person lands and delivers. This is not recruitment. We are not paid on who you hire, so our only interest is getting the decision right.'],
+    problems: ['We hire on trust where we can. When we can&rsquo;t, we&rsquo;re not close enough to know who will really deliver.', 'We hired someone who interviewed brilliantly and delivered nothing.', 'Our best salesperson isn&rsquo;t ready to lead, but we promoted them anyway.', 'New starters take far too long to sell anything.'],
+    doList: ['Define the role for your phase of growth, and what good looks like in it', 'Build the scorecard and test candidates on real deals and role plays, not just interviews', 'Use our network for honest references, and sit in on the final decision', 'Assess internal talent for promotion and readiness', 'Build the onboarding plan for the first 90 days, and stay close while the hire lands'],
+    getList: ['The right hire, in the right role, for your phase of growth', 'Onboarding that gets new people selling sooner', 'A hiring and onboarding process your team can run without us'] },
   { id: 'team-development', name: 'Sales Team Development', short: 'Sales Team Development', rhythm: 'From 6 weeks, then as required', fee: 'Agreed up front, per team',
     intro: ['For sales leaders, founders and CEOs who want the whole team performing, not just the top two.', 'Build the skills, habits and rhythm that make a sales team consistently productive.'],
     problems: ['Two of our reps carry the whole number.', 'We train people, but nothing changes on the calls.', 'Every rep sells differently, and the forecast shows it.'],
@@ -232,7 +232,7 @@ const WANTS = [
   { id: 'retained', want: 'Have senior commercial leadership, without a full-time hire' },
   { id: 'middle-east-market-entry', want: 'Enter the Middle East and win customers' },
   { id: 'mentoring', want: 'Make my sales leaders, or myself, sharper' },
-  { id: 'talent', want: 'Hire and promote the right sales people' },
+  { id: 'talent', want: 'Hire right, and onboard so they succeed' },
   { id: 'team-development', want: 'Develop my whole sales team' },
   { id: 'toolkit', want: 'Understand what makes a revenue engine work' },
   { id: 'talk', want: 'Talk it through first' },
@@ -774,7 +774,7 @@ MODE = 'site';
 fs.writeFileSync(path.join(OUT_SITE, '_headers'), '/assets/*.css\n  Cache-Control: public, max-age=300\n/assets/*.jpg\n  Cache-Control: public, max-age=86400\n');
 fs.writeFileSync(path.join(OUT_SITE, '404.html'), fullDoc({ file: '404.html', nav: '', title: 'Page not found | Amana Growth Partners', desc: 'Page not found.', body: `<section class="page-hero"><div class="wrap stack-lg"><p class="eyebrow">404</p><h1>That page has moved.</h1><p class="lead muted">The site has been simplified. <a class="textlink" href="./">Go to the home page &rarr;</a></p></div></section>` }));
 // Redirects: old chapter pages to the toolkit, old service URL to the renamed page
-fs.writeFileSync(path.join(OUT_SITE, '_redirects'), ['revenue-equation', 'talent', 'enablement', 'marketing', 'sales', 'success', 'foundations', 'measure', 'eight-steps'].map(c => `/toolkit-${c}.html /toolkit.html 301`).join('\n') + '\n/local-sales-agent.html /middle-east-market-entry 301\n/local-sales-agent /middle-east-market-entry 301\n');
+fs.writeFileSync(path.join(OUT_SITE, '_redirects'), ['revenue-equation', 'talent', 'enablement', 'marketing', 'sales', 'success', 'foundations', 'measure', 'eight-steps'].map(c => `/toolkit-${c}.html /toolkit.html 301`).join('\n') + '\n/hire-right /talent 301\n/local-sales-agent.html /middle-east-market-entry 301\n/local-sales-agent /middle-east-market-entry 301\n');
 // Search engine and AI crawler files
 for (const [f, txt] of Object.entries(SEO.crawlFiles(pages, SERVICES))) fs.writeFileSync(path.join(OUT_SITE, f), txt);
 console.log('built', pages.map(p => p.file).join(', '));

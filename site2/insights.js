@@ -10,7 +10,7 @@ const A = [
     seoTitle: 'What a Bad Sales Hire Really Costs a UK Business | Amana',
     desc: 'A wrong sales hire costs far more than salary. Using REC, DePaul and Bridge Group research, here is the real cost for a UK business, and how to avoid it.',
     lead: 'Most businesses count the salary. The real bill is the selling time lost while the seat produces little, sits empty, and then ramps up again.',
-    service: ['talent.html', 'Talent Identification'],
+    service: ['talent.html', 'Hire Right'],
     body: `
 <p>Ask a CEO what a bad sales hire cost them and you will usually hear a salary figure. That is the smallest part of it. The bigger cost is the revenue that never arrives while the wrong person holds the seat, while the seat is empty, and while the replacement gets up to speed.</p>
 
@@ -50,7 +50,7 @@ const A = [
   <li><strong>Plan the first 90 days before day one.</strong> Accounts, targets, coaching rhythm and the point at which you will review progress.</li>
   <li><strong>Decide early.</strong> If it is not working by the agreed review point, act. Every extra month adds to the bill above.</li>
 </ol>
-<p>If you are about to hire or promote into sales, our <a href="talent.html">Talent Identification</a> service builds the scorecard, interview plan and practical assessment with you, and joins the interviews.</p>`,
+<p>If you are about to hire or promote into sales, our <a href="talent.html">Hire Right</a> service builds the scorecard and practical assessment with you, joins the final decision, and stays close through onboarding.</p>`,
     faq: [
       ['How much does a bad sales hire cost in the UK?', 'REC\'s UK worked example puts one poor hire on a £42,000 salary at £132,015 including knock on costs. For a sales role on £90,000 on target earnings with a £450,000 quota, pay, fees, training and lost sales come to about £322,000.'],
       ['How long does it take to replace a salesperson?', 'DePaul University research found 3.69 to 5.42 months to fill a sales role. Bridge Group data shows a further 5.7 months for a new account executive to ramp to full productivity.'],

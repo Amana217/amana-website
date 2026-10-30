@@ -25,8 +25,8 @@ const META = {
     'Win your first customers in the UAE, Saudi Arabia and the wider Gulf before you open an office or hire locally. Market testing, introductions, pipeline and local set up support.'],
   'mentoring.html': ['Sales Leadership Coaching & Mentoring, UK & Middle East | Amana',
     'One to one coaching for sales leaders from first line manager to VP. Pipeline reviews, deal strategy, hiring and tough conversations, from an operator who has done the job.'],
-  'talent.html': ['Sales Hiring & Talent Assessment | Amana Growth Partners',
-    'Find, assess and secure sales people and sales leaders who will hit the number. Scorecards, interview plans, role plays and promotion readiness, in the UK and the Middle East.'],
+  'talent.html': ['Hire Right, Sales Hiring and Onboarding | Amana Growth Partners',
+    'An operator beside you when you hire salespeople and sales leaders, and through onboarding. Not recruitment: we are not paid on who you hire. UK and the Middle East.'],
   'team-development.html': ['Sales Team Development & Training | Amana Growth Partners',
     'Build the skills, habits and weekly rhythm that make a whole sales team productive. Assessment, development plans, workshops and live deal coaching, in the UK and the Middle East.'],
   'leak.html': ['Sales Leak Finder, Free Revenue Loss Calculator | Amana',
@@ -71,8 +71,8 @@ const FAQ = {
     ['How often do we meet and how is it priced?', 'Weekly, monthly or as required, at an hourly rate with the hours agreed in advance. ' + WHERE],
   ],
   talent: [
-    ['How do you help us hire sales people?', 'We define what good looks like for the role, your market and your stage, build the scorecard, interview plan and practical assessment, and join interviews and role plays with shortlisted candidates.'],
-    ['Do you replace our recruiters?', 'No. We work alongside your recruiters, or our recruitment partners, so every hire is made on evidence rather than instinct. We also assess internal talent for promotion.'],
+    ['How do you help us hire salespeople?', 'We define the role for your phase of growth, build the scorecard, test candidates on real deals and role plays, take honest references through our network and sit in on the final decision. Then we build the 90 day onboarding plan and stay close while the hire lands.'],
+    ['Is this recruitment?', 'No. We are not paid on who you hire, so our only interest is getting the decision right. We work alongside your recruiters, or our recruitment partners, and we also assess internal talent for promotion.'],
     ['How is it priced?', 'A fixed fee per role, agreed up front, per hire or across a hiring plan. ' + WHERE],
   ],
   'team-development': [
