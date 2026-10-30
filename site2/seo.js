@@ -26,7 +26,7 @@ const META = {
   'mentoring.html': ['Sales Leadership Coaching & Mentoring, UK & Middle East | Amana',
     'One to one coaching for sales leaders from first line manager to VP. Pipeline reviews, deal strategy, hiring and tough conversations, from an operator who has done the job.'],
   'talent.html': ['Hire Right, Sales Hiring and Onboarding | Amana Growth Partners',
-    'An operator beside you when you hire salespeople and sales leaders, and through onboarding. Not recruitment: we are not paid on who you hire. UK and the Middle East.'],
+    'An operator beside you when you hire salespeople and sales leaders, with a 90 day onboarding plan for every hire. Not recruitment: we are not paid on who you hire. UK and the Middle East.'],
   'team-development.html': ['Sales Team Development & Training | Amana Growth Partners',
     'Build the skills, habits and weekly rhythm that make a whole sales team productive. Assessment, development plans, workshops and live deal coaching, in the UK and the Middle East.'],
   'leak.html': ['Sales Leak Finder, Free Revenue Loss Calculator | Amana',
@@ -71,7 +71,7 @@ const FAQ = {
     ['How often do we meet and how is it priced?', 'Weekly, monthly or as required, at an hourly rate with the hours agreed in advance. ' + WHERE],
   ],
   talent: [
-    ['How do you help us hire salespeople?', 'We define the role for your phase of growth, build the scorecard, test candidates on real deals and role plays, take honest references through our network and sit in on the final decision. Then we build the 90 day onboarding plan and stay close while the hire lands.'],
+    ['How do you help us hire salespeople?', 'We define the role for your phase of growth, build the scorecard, test candidates on real deals and role plays, and sit in on the final decision. Then we build the 90 day onboarding plan with you, because onboarding is where a good hire succeeds or fails.'],
     ['Is this recruitment?', 'No. We are not paid on who you hire, so our only interest is getting the decision right. We work alongside your recruiters, or our recruitment partners, and we also assess internal talent for promotion.'],
     ['How is it priced?', 'A fixed fee per role, agreed up front, per hire or across a hiring plan. ' + WHERE],
   ],
